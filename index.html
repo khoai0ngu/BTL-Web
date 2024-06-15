@@ -4,13 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/54f0cb7e4a.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="styles.css">
-    
+    <link rel="stylesheet" href="style.css">
     <title>Traveloka - Nền tảng du lịch hàng đầu Đông Nam Á</title>
 </head>
 <body>
     <header>
-        <div class="background"> 
+        <div class="background">
             <img src="https://ik.imagekit.io/tvlk/image/imageResource/2023/09/27/1695776209619-17a750c3f514f7a8cccde2d0976c902a.png?tr=q-75"alt="Background Image"/>
             <div class="header-content">
                 <div class="header-top">
@@ -21,17 +20,46 @@
                     />
                     <div>
                         <ul>
-                            <li class="nav-item"><a href="#">VN | VND</a></li>
+                            <li class="nav-item currency-menu">
+                                <a href="#"><img src="https://d1785e74lyxkqq.cloudfront.net/_next/static/v2/a/a3478fc6e57b8681609c1458bd50cbb9.svg" alt="Flag" class="flag-icon"> VN | VND <i class="fas fa-chevron-down"></i></a>
+                                <div class="currency-submenu">
+                                    <table>
+                                        <thead>
+                                            <tr>
+                                                <th>Quốc gia & Ngôn ngữ</th>
+                                                <th>Tiền tệ</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td><a href="#"><img src="https://d1785e74lyxkqq.cloudfront.net/_next/static/v2/2/225a4c290e89ee22a80b21c45e12dd1e.svg" alt="Indonesia"> Indonesia (English)</a></td>
+                                                <td><a href="#">VND Việt Nam Đồng</a></td>
+                                            </tr>
+                                            <tr><td><a href="#"><img src="https://d1785e74lyxkqq.cloudfront.net/_next/static/v2/2/274f148e89a1be9911f97aa57203b6e9.svg" alt="Global"> Global (English)</a></td><td></td></tr>
+                                            <tr><td><a href="#"><img src="https://d1785e74lyxkqq.cloudfront.net/_next/static/v2/8/831d31936756640eb504e6f8b952b87c.svg" alt="Malaysia"> Malaysia (English)</a></td><td></td></tr>
+                                            <tr><td><a href="#"><img src="https://d1785e74lyxkqq.cloudfront.net/_next/static/v2/c/cbdcbaca7b4a1f29ff14ad4860ee7052.svg" alt="Philippines"> Philippines (English)</a></td><td></td></tr>
+                                            <tr><td><a href="#"><img src="https://d1785e74lyxkqq.cloudfront.net/_next/static/v2/c/c1095f58f94327cc20999c74e23e4c4d.svg" alt="Singapore"> Singapore (English)</a></td><td></td></tr>
+                                            <tr><td><a href="#"><img src="https://d1785e74lyxkqq.cloudfront.net/_next/static/v2/f/f57d34b9e02282ceecd38b3d56e4da83.svg" alt="Thailand"> Thailand (English)</a></td><td></td></tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </li>
                             <li class="nav-item"><a href="#">Khuyến mại</a></li>
-                            <li class="nav-item"><a href="#">Hỗ trợ</a></li>
+                            <li class="nav-item support-menu">
+                                <a href="#">Hỗ trợ <i class="fas fa-chevron-down"></i></a>
+                                <ul class="submenu support-submenu">
+                                    <li><a href="#"><i class="fas fa-info-circle"></i> Trợ giúp</a></li>
+                                    <li><a href="#"><i class="fas fa-phone"></i> Liên hệ chúng tôi</a></li>
+                                </ul>
+                            </li>
                             <li class="nav-item"><a href="#">Hợp tác với chúng tôi</a></li>
                             <li class="nav-item"><a href="#">Đặt chỗ của tôi</a></li>
-                            <li class="nav-item login-btn "><a href="#"><i class="fas fa-user"></i>Đăng nhập</a></li>
+                            <li class="nav-item login-btn"><a href="#"><i class="fas fa-user"></i> Đăng nhập</a></li>
                             <li class="nav-item register-btn"><a href="#">Đăng ký</a></li>
                         </ul>
                     </div>
                 </div>
-
+    
                 <div class="option">
                     <nav>
                         <ul>
@@ -41,7 +69,16 @@
                             <li><a href="#">Đưa đón sân bay</a></li>
                             <li><a href="#">Cho thuê xe</a></li>
                             <li><a href="#">Hoạt động & Vui chơi</a></li>
-                            <li><a href="#">More</a></li>
+                            <li class="more-menu nav-item">
+                                <a href="#">More <i class="fas fa-chevron-down"></i></a>
+                                <ul class="submenu more-submenu">
+                                    <li><a href="#"><i class="fas fa-gift"></i> Combo tiết kiệm</a></li>
+                                    <li><a href="#"><i class="fas fa-shield-alt"></i> Bảo hiểm du lịch</a></li>
+                                    <li><a href="#"><i class="fas fa-ticket-alt"></i> Phiếu quà tặng</a></li>
+                                    <li><a href="#"><i class="fas fa-ship"></i> Du thuyền</a></li>
+                                    <li><a href="#"><i class="fas fa-book"></i> Cẩm nang du lịch</a></li>
+                                </ul>
+                            </li>
                         </ul>
                     </nav>
                 </div>
@@ -71,14 +108,14 @@
                         <p>Hoặc chọn một danh mục để mở khóa trải nghiệm tiếp theo của bạn</p>
                     </div>
                     <div class="categories">
-                            <span><i class="fas fa-map-marker-alt"></i> Điểm tham quan</span>
-                            <span><i class="fas fa-spa"></i> Spa & Thư giãn</span>
-                            <span><i class="fas fa-bus"></i> Tour</span>
-                            <span><i class="fas fa-futbol"></i> Thể thao giải trí</span>
-                            <span><i class="fas fa-gamepad"></i> Trò chơi & Hoạt động</span>
-                            <span><i class="fas fa-car"></i> Phương tiện di chuyển</span>
-                            <span><i class="fas fa-briefcase"></i> Cần thiết cho du lịch</span>
-                            <span><i class="fas fa-utensils"></i> Trải nghiệm ẩm thực</span>
+                        <span><i class="fas fa-map-marker-alt"></i> Điểm tham quan</span>
+                        <span><i class="fas fa-spa"></i> Spa & Thư giãn</span>
+                        <span><i class="fas fa-bus"></i> Tour</span>
+                        <span><i class="fas fa-futbol"></i> Thể thao giải trí</span>
+                        <span><i class="fas fa-gamepad"></i> Trò chơi & Hoạt động</span>
+                        <span><i class="fas fa-car"></i> Phương tiện di chuyển</span>
+                        <span><i class="fas fa-briefcase"></i> Cần thiết cho du lịch</span>
+                        <span><i class="fas fa-utensils"></i> Trải nghiệm ẩm thực</span>
                     </div>
 
                     <div class="suggestions" id="suggestions">
@@ -108,8 +145,12 @@
     
     <main>
         <div class="main-content">
+            <div class="main11">
+                <img src="https://ik.imagekit.io/tvlk/image/imageResource/2024/06/11/1718100345756-7d339af615dd0bd88a48d9fa3bb5e70f.jpeg?tr=q-75,w-1280" alt="">
+            </div>
             <div class="main1">
-                <img src="https://ik.imagekit.io/tvlk/image/imageResource/2024/06/05/1717580392630-ce728aefbe9a47dad7741f670221b8b6.jpeg?tr=q-75,w-1280" alt=""></div>
+                <img src="https://ik.imagekit.io/tvlk/image/imageResource/2024/06/05/1717580392630-ce728aefbe9a47dad7741f670221b8b6.jpeg?tr=q-75,w-1280" alt="">
+            </div>
             <div class="smallmain1">
                 <img src="https://ik.imagekit.io/tvlk/image/imageResource/2024/06/05/1717580287404-1031d43edb9c50c3a8ca287bcbf3af09.jpeg?tr=q-75,w-285" alt="cung đường nổi bật">
                 <img src="https://ik.imagekit.io/tvlk/image/imageResource/2024/06/05/1717580295030-2e62dded9e704207a3894cf2b6c0a938.jpeg?tr=q-75,w-285" alt="thuong hai bac kinh">
@@ -193,15 +234,312 @@
                             <p class="price">₫590.200</p>
                         </div>
                     </div>    
-                <div class="ordernow">
-                   
+            </div> 
+            <div class="ordernow">
+                <span><a href="#">Đặt vé máy bay ngay<i class="fas fa-arrow-right"></i></a></span>
+            </div> 
+            <div class="ticket">
+                <div class="tabss">
+                    <button class="tab">Vé máy bay</button>
+                    <button class="tab">Khách sạn</button>
+                    <button class="tab">Bus & Shuttle</button>
+                    <button class="tab">Đưa đón sân bay</button>
+                    <button class="tab">Điểm tham quan</button>
                 </div>
-            </div>    
+                <div class="vivu">
+                    <img src="https://ik.imagekit.io/tvlk/image/imageResource/2024/06/06/1717644159878-5df458a142603ea697ce09d29f097c27.jpeg?tr=q-75,w-427" alt="">
+                    <img src="https://ik.imagekit.io/tvlk/image/imageResource/2024/06/08/1717868491249-0fc6a94cc7eb6e2962b76185ee317671.jpeg?tr=q-75,w-427" alt="">
+                    <img src="https://ik.imagekit.io/tvlk/image/imageResource/2024/06/08/1717869026790-7627afeb55bffc5310e0816ea3baeb12.jpeg?tr=q-75,w-427" alt="">
+                </div>
+            </div> 
+            <div class="seemore">
+                <span><a href="#">See All Deals<i class="fas fa-arrow-right"></i></a></span>
+            </div> 
+            <div class="multi">
+                <div class="dadang">
+                    <h2><img src="https://ik.imagekit.io/tvlk/image/imageResource/2024/03/21/1710989220431-43659f7763c46dcbd01c8bd1d3b9bc73.png?_src=imagekit&tr=q-40,h-24" alt="">Đa dạng lựa chọn khách sạn</h2>
+                </div>
+                <div class="tabsss">
+                    <button class="tab">Nha Trang</button>
+                    <button class="tab">Đà Nẵng</button>
+                    <button class="tab">Bangkok</button>
+                    <button class="tab">Singapore</button>
+                    <button class="tab">Seoul</button>
+                </div>
+            <div class="hotel-list">
+                <div class="hotel-item">
+                        <div class="location">Loc Tho ward</div>
+                            <img src="https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10042791-2073x1380-FIT_AND_TRIM-4deae5db285ef808b747e81b00a3a997.jpeg?_src=imagekit&tr=c-at_max,h-569,q-40,w-320" alt="Citadines Bayfront Nha Trang">
+                        <div class="discount">Tiết kiệm 25%</div>
+                        <div class="details">
+                            <h3>Citadines Bayfront Nha Trang</h3>
+                        <div class="rating">
+                            <span class="stars">★★★★★</span>
+                            <span class="score">8.7/10 (146)</span>
+                        </div>
+                        <div class="price">
+                            <span class="old-price">2.015.457 VND</span><br>
+                            <span class="new-price">1.511.520 VND</span>
+                        </div>
+                    </div>
+                </div>
+                    <div class="hotel-item">      
+                        <div class="location">Loc Tho ward</div>
+                            <img src="https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10025418-0d58c33b40873bc533cea68d2197b751.jpeg?_src=imagekit&tr=c-at_max,h-569,q-40,w-320" alt="Sun City Hotel Nha Trang">
+                        <div class="discount">Tiết kiệm 34%</div>
+                        <div class="details">
+                            <h3>Sun City Hotel Nha Trang</h3>
+                            <div class="rating">
+                                <span class="stars">★★★</span>
+                                <span class="score">8.3/10 (1142)</span>
+                            </div>
+                            <div class="price">
+                                <span class="old-price">496.000 VND</span><br>
+                                <span class="new-price">327.360 VND</span>
+                            </div> 
+                        </div>
+                    </div>
+                    <div class="hotel-item">   
+                        <div class="location">Loc Tho ward</div>
+                            <img src="https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/20002678-18c17e56657c672bdb66175e6a9a3042.jpeg?_src=imagekit&tr=c-at_max,h-569,q-40,w-320" alt="Melissa Hotel Nha Trang">
+                        <div class="discount">Tiết kiệm 55%</div>
+                        <div class="details">
+                            <h3>Melissa Hotel Nha Trang</h3>
+                            <div class="rating">
+                                <span class="stars">★★★★</span>
+                                <span class="score">8.6/10 (766)</span>
+                            </div>
+                            <div class="price">
+                                <span class="old-price">1.796.705 VND</span><br>
+                                <span class="new-price">808.517 VND</span>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="hotel-item">    
+                        <div class="location">Loc Tho ward</div>
+                            <img src="https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10025383-1100x825-FIT_AND_TRIM-d9d3e334bb012f4e2ee181e3be0a34f3.jpeg?_src=imagekit&tr=c-at_max,h-569,q-40,w-320" alt="Muong Thanh Luxury Nha Trang Hotel">
+                        <div class="discount">Tiết kiệm 25%</div>
+                        <div class="details">
+                            <h3>Muong Thanh Luxury Nha Trang Hotel</h3>
+                            <div class="rating">
+                                <span class="stars">★★★★★</span>
+                                <span class="score">8.7/10 (672)</span>
+                        </div>
+                        <div class="price">
+                            <span class="old-price">2.248.730 VND</span><br>
+                            <span class="new-price">1.686.484 VND</span>
+                        </div>
+                    </div> 
+                </div>         
+            </div>
+            <div class="now">
+                <span><a href="#">Đặt khách sạn ngay<i class="fas fa-arrow-right"></i></a></span>
+            </div>
+            <div class="cant">
+                <h2>Không thể không đến</h2>
+                <span>Đi cùng người thân vừa vui vừa thích</span>
+                <div class="tabsss">
+                    <button class="tab">Attraction</button>
+                    <button class="tab">Tour</button>
+                    <button class="tab">Playground</button>
+                </div>
+            <div class="palace">
+                <div class="palace1">
+                    <div class="location1">Hòa Vang</div>
+                        <img src="https://ik.imagekit.io/tvlk/xpe-asset/AyJ40ZAo1DOyPyKLZ9c3RGQHTP2oT4ZXW+QmPVVkFQiXFSv42UaHGzSmaSzQ8DO5QIbWPZuF+VkYVRk6gh-Vg4ECbfuQRQ4pHjWJ5Rmbtkk=/2000908871772/Sun-World-Ba-Na-Hills-in-Da-Nang--ce8d864c-da07-4dc0-91db-f320fa9fbbeb.jpeg?_src=imagekit&tr=c-at_max,h-569,q-60,w-320" alt="">
+                    <div class="details">
+                        <h3>Sun World Ba Na Hills tại Đà Nẵng</h3>
+                        <div class="price">
+                            <span class="old-price">VND 200.000</span><br>
+                            <span class="new-price">VND 160.000</span>
+                        </div>
+                    </div>    
+                </div>
+                <div class="palace1">
+                    <div class="location1">Vĩnh Nguyên</div>
+                        <img src="https://ik.imagekit.io/tvlk/xpe-asset/AyJ40ZAo1DOyPyKLZ9c3RGQHTP2oT4ZXW+QmPVVkFQiXFSv42UaHGzSmaSzQ8DO5QIbWPZuF+VkYVRk6gh-Vg4ECbfuQRQ4pHjWJ5Rmbtkk=/2000684219858/VinWonders-Nha-Trang-Tickets--80b15ee9-1b00-482d-a01d-566adef9bc25.jpeg?_src=imagekit&tr=c-at_max,h-569,q-60,w-320" alt="">
+                    <div class="details">
+                        <h3>Vé VinWonders Nha Trang</h3>
+                        <div class="price">
+                            <span class="old-price">VND 200.000</span><br>
+                            <span class="new-price">VND 160.000</span>
+                        </div>
+                    </div>    
+                </div>
+                <div class="palace1">
+                    <div class="location1">xã An Hòa</div>
+                        <img src="https://ik.imagekit.io/tvlk/xpe-asset/AyJ40ZAo1DOyPyKLZ9c3RGQHTP2oT4ZXW+QmPVVkFQiXFSv42UaHGzSmaSzQ8DO5QIbWPZuF+VkYVRk6gh-Vg4ECbfuQRQ4pHjWJ5Rmbtkk=/7369264504118/The-Amazing-Bay-Water-Park-Tickets-55729c6b-9ac2-42b2-b286-47eed560d9fa.png?_src=imagekit&tr=c-at_max,h-569,q-60,w-320" alt="">
+                    <div class="details">
+                        <h3>Vé Công viên nước The Amazing Bay</h3>
+                        <div class="price">
+                            <span class="old-price">VND 450.000</span><br>
+                            <span class="new-price">VND 407.000</span>
+                        </div>
+                    </div>    
+                </div>
+                <div class="palace1">
+                    <div class="location1">Cẩm Nam</div>
+                        <img src="https://ik.imagekit.io/tvlk/xpe-asset/AyJ40ZAo1DOyPyKLZ9c3RGQHTP2oT4ZXW+QmPVVkFQiXFSv42UaHGzSmaSzQ8DO5QIbWPZuF+VkYVRk6gh-Vg4ECbfuQRQ4pHjWJ5Rmbtkk=/2001400570194/The-Hoi-An-Memories-Show-Tickets--47c2077a-d86d-4d9a-a470-1ae254618ca5.png?_src=imagekit&tr=c-at_max,h-569,q-60,w-320" alt="">
+                    <div class="details">
+                        <h3>Vé show Ký ức Hội An</h3>
+                        <div class="price">
+                            <span class="old-price">VND 600.000</span><br>
+                            <span class="new-price">VND 540.000</span>
+                        </div>
+                    </div>    
+                </div>   
+            </div>
+            </div>
+            <div class="seeall">
+                <span><a href="#">Xem tất cả<i class="fas fa-arrow-right"></i></a></span>
+            </div> 
+            <div class="abroad">
+                <div class="titleab">
+                <h2><img src="https://ik.imagekit.io/tvlk/image/imageResource/2023/06/01/1685632370538-63ea09621bb19474f36a8e6a994f4ab9.png?_src=imagekit&tr=q-40,h-24" alt="">Du hành quốc tế: nhận hướng dẫn</h2>
+                </div>
+                <div class="destination-list">
+                    <div class="destination-item">
+                        <img src="https://ik.imagekit.io/tvlk/image/imageResource/2023/06/15/1686809745816-f79a1d39bd05dff74a28980cbb7875b1.png?tr=q-75,w-256" alt="">
+                        <div class="destination-info">
+                            <h3>Bali</h3>
+                            <p>Indonesia</p>
+                        </div>
+                    </div>
+                    <div class="destination-item">
+                        <img src="https://ik.imagekit.io/tvlk/image/imageResource/2023/06/15/1686809749394-d6cd1791d20b3255f25cb3fb7a191acc.png?tr=q-75,w-256 " alt="">
+                        <div class="destination-info">
+                            <h3>Bangkok</h3>
+                            <p>Thailand</p>
+                        </div>
+                    </div>
+                    <div class="destination-item">
+                        <img src="https://ik.imagekit.io/tvlk/image/imageResource/2023/06/15/1686809753588-b7415ac732c452b9207632846e6c4c3b.png?tr=q-75,w-256" alt="">
+                        <div class="destination-info">
+                            <h3>Seoul</h3>
+                            <p>South Korea</p>
+                        </div>
+                    </div>
+                    <div class="destination-item">
+                        <img src="https://ik.imagekit.io/tvlk/image/imageResource/2023/06/15/1686809757422-818b6a6738fa9d78685617becf7e9428.png?tr=q-75,w-256" alt="">
+                        <div class="destination-info">
+                            <h3>Istanbul</h3>
+                            <p>Turkey</p>
+                        </div>
+                    </div>
+                    <div class="destination-item">
+                        <img src="https://ik.imagekit.io/tvlk/image/imageResource/2023/06/15/1686809760542-61384b1b7393cf68b60b740abd903861.png?tr=q-75,w-256" alt="">
+                        <div class="destination-info">
+                            <h3>Liverpool</h3>
+                            <p>United Kingdom</p>
+                        </div>
+                    </div>
+                </div>    
+            </div>
+            <div class="reason">
+                <h2>Lý do nên đặt chỗ với Traveloka?</h2>
+                <div class="benefit-item">
+                    <img src="https://ik.imagekit.io/tvlk/image/imageResource/2023/06/14/1686718236517-bf9a3e5ffd872b781ba2e56e93fe8840.webp?tr=h-64,q-75,w-64" align="left" alt="Icon 1">
+                    <h3>Đáp ứng mọi nhu cầu của bạn</h3>
+                    <p>Từ chuyến bay, lưu trú, đến điểm tham quan, bạn có thể tin chọn sản phẩm hoàn chỉnh và Hướng Dẫn Du Lịch của chúng tôi.</p>
+                </div>
+                <div class="benefit-item">
+                    <img src="https://ik.imagekit.io/tvlk/image/imageResource/2023/06/14/1686718238370-9ef6b6e0701e9074614951c0bd49930c.webp?tr=h-64,q-75,w-64" align="left" alt="Icon 2">
+                    <h3>Tùy chọn đặt chỗ linh hoạt</h3>
+                    <p>Kế hoạch thay đổi bất ngờ? Đừng lo! Đổi lịch hoặc Hoàn tiền dễ dàng.</p>
+                </div>
+                <div class="benefit-item">
+                    <img src="https://ik.imagekit.io/tvlk/image/imageResource/2023/06/14/1686718240417-96131eb957c39a098a12d2d7926e3342.webp?tr=h-64,q-75,w-64" align="left" alt="Icon 3">
+                    <h3>Thanh toán an toàn và thuận tiện</h3>
+                    <p>Tận hưởng nhiều cách thanh toán an toàn, bằng loại tiền thuận tiện nhất cho bạn.</p>
+                </div>
+            </div>
+            <div class="explore">
+                <h2>Bạn muốn khám phá điều gì?</h2>
+                <div class="tabs">
+                    <button class="tab-button">Các chặng bay hàng đầu</button>
+                    <button class="tab-button">Các khách sạn hàng đầu</button>
+                    <button class="tab-button">Hoạt động Tham quan và Giải trí</button>
+                </div>
+                <div id="flights" class="tab-content">
+                    <ul class="flights-list">
+                        <li><a href="#">Vé máy bay đi Đà Nẵng</a></li>
+                        <li><a href="#">Vé máy bay đi Phú Quốc</a></li>
+                        <li><a href="#">Vé máy bay đi Nha Trang</a></li>
+                        <li><a href="#">Vé máy bay đi Hà Nội</a></li>
+                        <li><a href="#">Vé máy bay đi Đà Lạt</a></li>
+                        <li><a href="#">Vé máy bay đi Hải Phòng</a></li>
+                        <li><a href="#">Vé máy bay Sài Gòn - Hà Nội</a></li>
+                        <li><a href="#">Vé máy bay Sài Gòn - Đà Nẵng</a></li>
+                        <li><a href="#">Vé máy bay Sài Gòn - Phú Quốc</a></li>
+                        <li><a href="#">Vé máy bay Sài Gòn - Nha Trang</a></li>
+                        <li><a href="#">Vé máy bay Sài Gòn - Đà Lạt</a></li>
+                        <li><a href="#">Vé máy bay đi Singapore</a></li>
+                        <li><a href="#">Vé máy bay Hà Nội - Sài Gòn</a></li>
+                        <li><a href="#">Vé máy bay Hà Nội - Phú Quốc</a></li>
+                        <li><a href="#">Vé máy bay Hà Nội - Đà Nẵng</a></li>
+                        <li><a href="#">Vé máy bay Hà Nội - Nha Trang</a></li>
+                        <li><a href="#">Vé máy bay Hà Nội - Đà Lạt</a></li>
+                        <li><a href="#">Vé máy bay đi Sài Gòn</a></li>
+                        <li><a href="#">Vé máy bay Đà Nẵng - Hà Nội</a></li>
+                        <li><a href="#">Vé máy bay Đà Nẵng - Sài Gòn</a></li>
+                        <li><a href="#">Vé máy bay Hồ Chí Minh - Bangkok</a></li>
+                        <li><a href="#">Vé máy bay Hồ Chí Minh - Singapore</a></li>
+                        <li><a href="#">Vé máy bay Hà Nội - Bangkok</a></li>
+                        <li><a href="#">Vé máy bay đi Bangkok</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="always">
+                <div class="back1">
+                    <img src="https://ik.imagekit.io/tvlk/image/imageResource/2023/06/08/1686193661791-d09fe628fd8f9b6c377a91b30628d0b2.png?tr=q-75" alt="">
+                </div>
+                    <img src="https://ik.imagekit.io/tvlk/image/imageResource/2023/07/25/1690270103782-21cfb448585a35be06cda74cae2d82aa.png?tr=q-75" alt="">
+                <div class="back2">
+                    <img src="https://ik.imagekit.io/tvlk/image/imageResource/2023/07/03/1688370082420-ea9f0f5530ce9e6a7b36fcec8aa60664.png?tr=q-75" alt="">
+                </div>
+                <div class="taito">Luôn được cập nhật về các lời khuyên du lịch, đề xuất và khuyến mãi mới nhất.</div>
+                <div class="back3">
+                    <img src="https://ik.imagekit.io/tvlk/image/imageResource/2023/06/05/1685932290700-ea7123964ddb7be49d634302d707eede.webp?tr=q-75" alt="">
+                </div>
+                <div class="mail">
+                    <input type="email" placeholder="Địa chỉ email của bạn" id="searchInputt">
+                    <button id="search"><p>Đăng ký tin</p></button>
+                </div>
+                <div class="have">
+                    <p>Có chuyến đi mơ ước của bạn trong tầm tay của bạn. Tải xuống ứng dụng.</p>
+                </div>
+                    <div class="qr">
+                        <img src="https://ik.imagekit.io/tvlk/image/imageResource/2023/06/05/1685932333390-f442fb93a4dc254d3c4f6771dd04b4ad.png?tr=q-75" alt="">
+                    </div>
+                    <div class="ggplay">
+                        <img src="https://d1785e74lyxkqq.cloudfront.net/_next/static/v2/f/f519939e72eccefffb6998f1397901b7.svg" alt="">
+                    </div>
+                    <div class="apple">
+                        <img src="https://d1785e74lyxkqq.cloudfront.net/_next/static/v2/1/18339f1ae28fb0c49075916d11b98829.svg" alt="">
+                    </div>
+            </div>  
+            <div class="last">
+                <div class="tra">
+                    <img src="https://d1785e74lyxkqq.cloudfront.net/_next/static/v2/a/ad89f39fe62c8b500e6f9a25fa4427d8.svg" alt=""></div>
+                    <div class="certi">
+                        <img src="https://ik.imagekit.io/tvlk/image/imageResource/2017/12/13/1513150321127-5096be77d2a19401b476853e54ba2cc6.svg?tr=h-35,q-75" alt="">
+                        <img src="https://ik.imagekit.io/tvlk/image/imageResource/2021/05/10/1620638808154-e6c02ed786235ab59252628a9aa9b715.png?tr=h-35,q-75" alt="">
+                        <img src="https://ik.imagekit.io/tvlk/image/imageResource/2019/09/23/1569229181629-eeb038ad844874f951326d0a8534bf48.png?tr=q-75,w-100" alt="">
+                    </div>
+                    <div class="certi1">
+                        <img src="https://ik.imagekit.io/tvlk/image/imageResource/2019/09/23/1569229181629-eeb038ad844874f951326d0a8534bf48.png?tr=q-75,w-100" alt="">
+                    </div>
+                    <div class="coor">
+                        <h3>hợp tác</h3>
+                    </div>
+                    <div class="payment">
+                        
+                    </div>
+                </div>
+                
+            </div>         
         </div>
     </main>
     <script src="script.js"></script>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
