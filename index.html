@@ -1,64 +1,189 @@
 <!DOCTYPE html>
 <html lang="vi">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/54f0cb7e4a.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/54f0cb7e4a.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
     <title>Traveloka - Nền tảng du lịch hàng đầu Đông Nam Á</title>
-</head>
-<body>
-    <header>
-        <div class="background">
-            <img src="https://ik.imagekit.io/tvlk/image/imageResource/2023/09/27/1695776209619-17a750c3f514f7a8cccde2d0976c902a.png?tr=q-75"alt="Background Image"/>
-            <div class="header-content">
-                <div class="header-top">
-                    <img
-                        src="https://d1785e74lyxkqq.cloudfront.net/_next/static/v2/f/fbab4f587da2242fbe9858fe3e5ba717.svg"
-                        alt="Traveloka Logo"
-                        class="logo"
-                    />
-                    <div>
-                        <ul>
-                            <li class="nav-item currency-menu">
-                                <a href="#"><img src="https://d1785e74lyxkqq.cloudfront.net/_next/static/v2/a/a3478fc6e57b8681609c1458bd50cbb9.svg" alt="Flag" class="flag-icon"> VN | VND <i class="fas fa-chevron-down"></i></a>
-                                <div class="currency-submenu">
-                                    <table>
-                                        <thead>
-                                            <tr>
-                                                <th>Quốc gia & Ngôn ngữ</th>
-                                                <th>Tiền tệ</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td><a href="#"><img src="https://d1785e74lyxkqq.cloudfront.net/_next/static/v2/2/225a4c290e89ee22a80b21c45e12dd1e.svg" alt="Indonesia"> Indonesia (English)</a></td>
-                                                <td><a href="#">VND Việt Nam Đồng</a></td>
-                                            </tr>
-                                            <tr><td><a href="#"><img src="https://d1785e74lyxkqq.cloudfront.net/_next/static/v2/2/274f148e89a1be9911f97aa57203b6e9.svg" alt="Global"> Global (English)</a></td><td></td></tr>
-                                            <tr><td><a href="#"><img src="https://d1785e74lyxkqq.cloudfront.net/_next/static/v2/8/831d31936756640eb504e6f8b952b87c.svg" alt="Malaysia"> Malaysia (English)</a></td><td></td></tr>
-                                            <tr><td><a href="#"><img src="https://d1785e74lyxkqq.cloudfront.net/_next/static/v2/c/cbdcbaca7b4a1f29ff14ad4860ee7052.svg" alt="Philippines"> Philippines (English)</a></td><td></td></tr>
-                                            <tr><td><a href="#"><img src="https://d1785e74lyxkqq.cloudfront.net/_next/static/v2/c/c1095f58f94327cc20999c74e23e4c4d.svg" alt="Singapore"> Singapore (English)</a></td><td></td></tr>
-                                            <tr><td><a href="#"><img src="https://d1785e74lyxkqq.cloudfront.net/_next/static/v2/f/f57d34b9e02282ceecd38b3d56e4da83.svg" alt="Thailand"> Thailand (English)</a></td><td></td></tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-                            </li>
-                            <li class="nav-item"><a href="#">Khuyến mại</a></li>
-                            <li class="nav-item support-menu">
-                                <a href="#">Hỗ trợ <i class="fas fa-chevron-down"></i></a>
-                                <ul class="submenu support-submenu">
-                                    <li><a href="#"><i class="fas fa-info-circle"></i> Trợ giúp</a></li>
-                                    <li><a href="#"><i class="fas fa-phone"></i> Liên hệ chúng tôi</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item"><a href="#">Hợp tác với chúng tôi</a></li>
-                            <li class="nav-item"><a href="#">Đặt chỗ của tôi</a></li>
-                            <li class="nav-item login-btn"><a href="#"><i class="fas fa-user"></i> Đăng nhập</a></li>
-                            <li class="nav-item register-btn"><a href="#">Đăng ký</a></li>
-                        </ul>
-                    </div>
-                </div>
+  </head>
+    <body>
+      <header class="background">
+        <img
+          src="https://ik.imagekit.io/tvlk/image/imageResource/2023/09/27/1695776209619-17a750c3f514f7a8cccde2d0976c902a.png?tr=q-75"
+          alt="Background Image"
+        />
+        <div class="header-content">
+          <div class="header-top">
+            <img
+              src="https://d1785e74lyxkqq.cloudfront.net/_next/static/v2/f/fbab4f587da2242fbe9858fe3e5ba717.svg"
+              alt="Traveloka Logo"
+              class="logo"
+            />
+            <div>
+              <ul>
+                <li class="nav-item currency-menu">
+                  <a href="#"
+                    ><img
+                      src="https://d1785e74lyxkqq.cloudfront.net/_next/static/v2/a/a3478fc6e57b8681609c1458bd50cbb9.svg"
+                      alt="Flag"
+                      class="flag-icon" />
+                    VN | VND <i class="fas fa-chevron-down"></i
+                  ></a>
+                  <div class="currency-submenu">
+                    <table>
+                      <thead>
+                        <tr>
+                          <th>Quốc gia & Ngôn ngữ</th>
+                          <th>Tiền tệ</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>
+                            <a href="#"
+                              ><img
+                                src="https://d1785e74lyxkqq.cloudfront.net/_next/static/v2/2/225a4c290e89ee22a80b21c45e12dd1e.svg"
+                                alt="Indonesia"
+                              />
+                              Indonesia (English)</a
+                            >
+                          </td>
+                          <td><a href="#">VND Việt Nam Đồng</a></td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <a href="#"
+                              ><img
+                                src="https://d1785e74lyxkqq.cloudfront.net/_next/static/v2/2/274f148e89a1be9911f97aa57203b6e9.svg"
+                                alt="Global"
+                              />
+                              Global (English)</a
+                            >
+                          </td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <a href="#"
+                              ><img
+                                src="https://d1785e74lyxkqq.cloudfront.net/_next/static/v2/8/831d31936756640eb504e6f8b952b87c.svg"
+                                alt="Malaysia"
+                              />
+                              Malaysia (English)</a
+                            >
+                          </td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <a href="#"
+                              ><img
+                                src="https://d1785e74lyxkqq.cloudfront.net/_next/static/v2/c/cbdcbaca7b4a1f29ff14ad4860ee7052.svg"
+                                alt="Philippines"
+                              />
+                              Philippines (English)</a
+                            >
+                          </td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <a href="#"
+                              ><img
+                                src="https://d1785e74lyxkqq.cloudfront.net/_next/static/v2/c/c1095f58f94327cc20999c74e23e4c4d.svg"
+                                alt="Singapore"
+                              />
+                              Singapore (English)</a
+                            >
+                          </td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <a href="#"
+                              ><img
+                                src="https://d1785e74lyxkqq.cloudfront.net/_next/static/v2/f/f57d34b9e02282ceecd38b3d56e4da83.svg"
+                                alt="Thailand"
+                              />
+                              Thailand (English)</a
+                            >
+                          </td>
+                          <td></td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </li>
+                <li class="nav-item"><a href="#">Khuyến mại</a></li>
+                <li class="nav-item support-menu">
+                  <a href="#">Hỗ trợ <i class="fas fa-chevron-down"></i></a>
+                  <ul class="submenu support-submenu">
+                    <li>
+                      <a href="#"
+                        ><i class="fas fa-info-circle"></i> Trợ giúp</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#"
+                        ><i class="fas fa-phone"></i> Liên hệ chúng tôi</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item"><a href="#">Hợp tác với chúng tôi</a></li>
+                <li class="nav-item"><a href="#">Đặt chỗ của tôi</a></li>
+                <li class="nav-item login-btn">
+                  <a href="#"><i class="fas fa-user"></i> Đăng nhập</a>
+                </li>
+                <li class="nav-item register-btn"><a href="#">Đăng ký</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="option">
+            <nav>
+              <ul>
+                <li><a href="#">Khách sạn</a></li>
+                <li><a href="#">Vé máy bay</a></li>
+                <li><a href="#">Vé xe khách</a></li>
+                <li><a href="#">Đưa đón sân bay</a></li>
+                <li><a href="#">Cho thuê xe</a></li>
+                <li><a href="#">Hoạt động & Vui chơi</a></li>
+                <li class="more-menu nav-item">
+                  <a href="#">More <i class="fas fa-chevron-down"></i></a>
+                  <ul class="submenu more-submenu">
+                    <li>
+                      <a href="#"
+                        ><i class="fas fa-gift"></i> Combo tiết kiệm</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#"
+                        ><i class="fas fa-shield-alt"></i> Bảo hiểm du lịch</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#"
+                        ><i class="fas fa-ticket-alt"></i> Phiếu quà tặng</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#"><i class="fas fa-ship"></i> Du thuyền</a>
+                    </li>
+                    <li>
+                      <a href="#"
+                        ><i class="fas fa-book"></i> Cẩm nang du lịch</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </nav>
+          </div>
     
                 <div class="option">
                     <nav>
@@ -140,7 +265,6 @@
                         <span>Trusted by</span>
                     </div>    
             </div>
-        </div>
     </header>
     
     <main>
