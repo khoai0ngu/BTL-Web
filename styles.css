@@ -186,8 +186,8 @@ header .option a i {
 }
 
 .currency-submenu {
-    width: auto; /* Change this from 300px to auto */
-    max-width: 500px; /* Add max-width to prevent it from being too wide */
+    width: auto; 
+    max-width: 500px; 
     position: absolute;
     top: 100%;
     left: 0;
@@ -203,7 +203,7 @@ header .option a i {
 }
 
 .currency-submenu table {
-    width: 500px; /* Change this from 400px to 100% */
+    width: 500px; 
     border-collapse: collapse;
 }
 
@@ -220,7 +220,7 @@ header .option a i {
     display: flex;
     align-items: center;
     padding: 5px 0;
-    color: black; /* Ensure text color is black */
+    color: black; 
 }
 
 .currency-submenu img {
@@ -399,7 +399,7 @@ header .background img {
 }
 .main-content{
     width: 100%;
-    height: 6000px;
+    height: 5555px;
     border-radius: 100px 100px 0 0;
     box-sizing: border-box;
     position: absolute;
@@ -905,23 +905,22 @@ header .background img {
 .always{
     transform: translateX(-10%);
     margin-top: 80px;
-    border: 2px solid rebeccapurple;
     height: 404px;
 }
 .always .back1 img{
     width: 1476px;
-    height: 400px;
+    height: 405px;
 }
 .always img{
     position: absolute;
     width: 330px;
-    height: 400px;
+    height: 405px;
 }
 .always .back2 img{
     position: absolute;
     margin-left: 100px;
     width: 278px;
-    height: 360px;
+    height: 365px;
     margin-top: 40px;
 }
 .always .taito{
@@ -936,7 +935,7 @@ header .background img {
 .always .back3 img{
     position: absolute;
     width: 420px;
-    height: 110px;
+    height: 115px;
     left: 85%;
     top: 290px;
 }
@@ -996,10 +995,163 @@ header .background img {
     width: 135px;
     height: 40px;
 }
-.last{
-    transform: translateX(-8.3%);
-    height: 500px;
-    width: 1500px;
-    background-color: rgba(28, 41, 48, 1.00);
 
+
+footer {
+    background: rgba(28, 41, 48, 1.00);    
+    color: rgba(255, 255, 255, 1.00);
+    text-align: left;
+    bottom: 0;
+    margin-top: 4950px;
 }
+.footer-columns .certi {
+    width: 330px;
+    margin-right: 10px;
+}
+.footer-columns .certi img {
+    margin-right: 30px; 
+    margin-bottom: 15px;   
+}
+.footer-columns .certi1 {
+    width: 100px;
+}
+.footer-columns .payment{
+    width: 140px;
+    margin-bottom: 10px;
+}
+
+.coor{
+    height: 56px;
+    width: 240px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #354148;
+    border-radius: 10px;
+    margin-top: 16px;
+    margin-bottom: 20px;
+}
+.coor span{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.coor i{
+    padding-right: 8px;
+}
+
+.footer-columns {
+    display: flex;
+    padding: 30px 100px;
+}
+
+.footer-section {
+    flex: 1;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+}
+
+
+.banking {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7px;
+}
+
+.bank {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff; 
+    border-radius: 10px;
+    padding: 10px; 
+    box-sizing: border-box;
+    height: 45px;
+}
+
+.bank img {
+    max-width: 100%;
+    height: auto;
+}
+
+.social-icons {
+    list-style-type: none;
+    padding: 0;
+}
+
+.social-icons li {
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.social-icons li a {
+    color: rgba(255, 255, 255, 1.00);
+    font-size: 14px;
+    display: flex;
+   
+}
+.social-icons li a i {
+    margin-right: 8px;
+    font-size: 18px;
+}
+
+.app-download {
+    margin-top: 30px;
+}
+
+.app-download h3 {
+    font-size: 16px;
+    margin-bottom: 15px;
+    color: rgba(255, 255, 255, 1.00);
+}
+
+.app-download a img {
+    margin-right: 10px;
+    max-width: 150px;
+}
+
+.footer-section h3{
+    margin-bottom: 15px;
+    margin-top: 25px;
+    
+}
+.footer-section ul {
+    list-style-type: none;
+    padding: 0;
+    
+}
+
+.footer-section ul li {
+    margin-bottom: 20px;  
+    margin-right: 150px; 
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.footer-section ul li a {
+    color: rgba(255, 255, 255, 1.00);
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    background-color: rgba(28, 41, 48, 1.00);
+    padding: 10px;
+    border-top: 2px solid gray;
+    text-align: center;
+}
+
+.footer-bottom p {
+    margin: 10px 0;
+    font-size: 15px;
+    font-size: 14px;
+    color: rgba(255,255,255,1.00);
+    font-weight: 500;
+}
+
