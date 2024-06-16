@@ -63,7 +63,7 @@ header .header-top>ul {
 }
 
 header .header-top a {
-    color: black;
+    color: white;
 }
 
 .flag-icon {
@@ -216,11 +216,11 @@ header .option a i {
     border-left: 1px solid #ddd;
 }
 
-.currency-submenu a {
+.currency-submenu tr td a {
     display: flex;
     align-items: center;
     padding: 5px 0;
-    color: black; 
+    color: black; /* Ensure text is black */
 }
 
 .currency-submenu img {
@@ -236,7 +236,6 @@ header .option a i {
 .currency-menu.active .currency-submenu {
     transform: scale(1, 1);
 }
-
 
 
 header .title {
